@@ -1,15 +1,34 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(41, 2, 41);
 }
 .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
 }
 .movie-card {
+  position: relative;
 }
 .movie-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
 }
 .movie-details-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  color: white;
 }
 .descriptions {
+  position: relative;
+  align-content: end;
+  height: 100%;
+  z-index: 10;
+  padding-left: 1rem;
 }
 
 /*A gift from us!*/
@@ -28,4 +47,7 @@ body {
   );
 }
 .movie-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0;
 }
